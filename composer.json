@@ -1,0 +1,20 @@
+{
+  "name": "phpguru/smlib",
+  "description": "A small library web application",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Administrator",
+      "email": "techlead@sonnm.com"
+    }
+  ],
+  "scripts": {
+    "start": "php -S localhost:8080"
+  },
+  "require": {
+    "league/route": "^5.1",
+    "laminas/laminas-diactoros": "^2.8",
+    "laminas/laminas-httphandlerrunner": "^2.1"
+  }
+}
